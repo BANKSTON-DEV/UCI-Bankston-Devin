@@ -1,1 +1,51 @@
 'Unit 2 Assignment VBA 
+Sub Homework():
+
+   
+ 
+    Dim vol As String
+    Dim Volume As Integer
+    Volume = Range("L2")
+    Ticker = Range("I2")
+
+
+    vol = Sum + Range(Gb)
+
+
+    tickerColumn = Cells(b, 1)
+ 
+    lastrow = Cells(Rows.Count, 1).End(x1Up).Row
+    For Each ws In Worksheets
+
+ 
+
+ 
+        For b = 1 To lastrow
+ 
+            If Cells(b + 1, tickerColumn).Value <> Cells(b, tickerColumn).Value Then
+    
+                Cells(b + 1, 10).Value = Cells(b, 1).Value
+            
+                Cells(b + 1, 11).Value = Cells(b, 6).Value - Cells(i, 3).Value
+                        
+                        If Cells(b + 1, 11).Value > 0 Then
+                    
+                                Cells(b + 1, 11).Interior.ColorIndex = 4
+                            
+                                    Else: Cells(b + 1, 11).Index.ColorIndex = 3
+            
+                                        If Range(Gb) > 0 Then
+                            
+                                            Volume = (vol + 1)
+                                        
+                                        End If
+                    
+                            End If
+                            
+                End If
+                      
+             
+    Next b
+            
+End Sub
+
